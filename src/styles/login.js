@@ -26,9 +26,9 @@ export const Nav = styled.nav`
 export const Join = styled.a`
 cursor: pointer;
 font-size: 16px;
-padding: 10px 12px;
 text-decoration: none;
 color: rgba(0, 0, 0, 0.6);
+padding: 10px 12px;
 margin-right: 12px;
 border-radius: 4px;
 
@@ -42,6 +42,7 @@ border-radius: 4px;
 export const SignIn = styled.a`
   cursor: pointer;
   box-shadow: inset 0 0 0 1px #0a66c2;
+  background-color: rgba(0, 0, 0, 0);
   color: #0a66c2;
   border-radius: 24px;
   transition-duration: 167ms;
@@ -50,7 +51,6 @@ export const SignIn = styled.a`
   line-height: 20px;
   padding: 10px 14px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
 
   &:hover {
     background-color: rgba(112, 181, 149, 0.15);
@@ -62,14 +62,12 @@ export const SignIn = styled.a`
 export const Section = styled.div`
   display: flex;
   align-content: start;
-  min-height: 700px;
-  /* padding-bottom: 138px; */
-  /* padding-top: 40px; */
-  padding: 60px 0;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1228px;
-  align-items: center;
+  min-height: 700px;
+  padding: 60px 0;
   margin: auto;
 
   @media (max-width: 768px) {
@@ -83,15 +81,15 @@ export const Hero = styled.div`
   h1 {
     padding-bottom: 0;
     width: 55%;
-    font-size: 56px;
-    color: #2977c9;
-    font-weight: 200;
     line-height: 70px;
+    font-size: 56px;
+    font-weight: 200;
+    color: #2977c9;
     @media (max-width: 768px) {
       text-align: center;
-      font-size: 20px;
-      width: 100%;
+      font-size: 24px;
       line-height: 2;
+      width: 100%;
     }
   }
 

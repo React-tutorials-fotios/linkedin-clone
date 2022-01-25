@@ -2,4 +2,5 @@ YouTube tutorial: [Build LinkedIn with React JS (Firebase + Styled Components + 
 
 #### Things I've changed:
 
+- Using `react-router-dom` v6.
 - Moved styled component styles into separate folders.
