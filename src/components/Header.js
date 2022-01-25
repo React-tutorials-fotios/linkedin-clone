@@ -1,4 +1,4 @@
-import { Container, Content, Logo } from "../styles/header";
+import { Container, Content, Logo, Search, SearchIcon } from "../styles/header";
 
 const Header = () => {
   return (
@@ -9,6 +9,14 @@ const Header = () => {
             <img src="/images/home-logo.svg" alt="" />
           </a>
         </Logo>
+        <Search>
+          <div>
+            <input type="text" placeholder="Search" />
+          </div>
+          <SearchIcon>
+            <img src="/images/search-icon.svg" alt="" />
+          </SearchIcon>
+        </Search>
       </Content>
     </Container>
   );

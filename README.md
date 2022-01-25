@@ -4,3 +4,4 @@ YouTube tutorial: [Build LinkedIn with React JS (Firebase + Styled Components + 
 
 - Using `react-router-dom` v6.
 - Moved styled component styles into separate folders.
+- group styles by action, like `width` next to `height`, `border-color` next to `border`, `padding` next to `margin` etc.
